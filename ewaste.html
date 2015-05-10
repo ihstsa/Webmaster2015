@@ -8,10 +8,15 @@
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" language="JavaScript"><!--
 
-var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
-var sol = gen_switch("bsol solutions casol cesol cosol tsol")
-var des = gen_switch("bdes cades cedes codes tdes")
-var bottom = gen_switch("bib map")
+//var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
+//var sol = gen_switch("bsol solutions casol cesol cosol tsol")
+//var des = gen_switch("bdes cades cedes codes tdes")
+//var bottom = gen_switch("bib map")
+window.addEventListener("load", function(){
+	enable(document.getElementsByClassName("des"));
+	enable(document.getElementsByClassName("prob"));
+	enable(document.getElementsByClassName("sol"));
+})
 
 //--></script>
 </head>
@@ -50,43 +55,43 @@ var bottom = gen_switch("bib map")
 <div id="wastes" class="section" class="subtitle">
 	<div id="battery" class="tech">
 		<br>
-		<a class="bodylink" href="javascript:des('bdes');">What are these?</a>
+		<a class="bodylink des" data-tid="bdes" href="#">What are these?</a>
 		<br>
-		<a class="bodylink" href="javascript:prob('bprob');">Dangers</a>
+		<a class="bodylink prob" data-tid="bprob" href="#">Dangers</a>
 		<br>
-		<a class="bodylink" href="javascript:sol('bsol');">Disposal</a>
+		<a class="bodylink sol" data-tid="bsol" href="#">Disposal</a>
 	</div>
 	<div id="camera" class="tech">
 		<br>
-		<a class="bodylink" href="javascript:des('cades');">What are these?</a>		
+		<a class="bodylink des" data-tid="cades" href="#">What are these?</a>		
 		<br>
-		<a class="bodylink" href="javascript:prob('caprob');">Dangers</a>
+		<a class="bodylink prob" data-tid="caprob" href="#">Dangers</a>
 		<br>
-		<a class="bodylink" href="javascript:sol('casol');">Disposal</a>
+		<a class="bodylink sol" data-tid="casol" href="#">Disposal</a>
 	</div>
 	<div id="cellphone" class="tech">
 		<br>
-		<a class="bodylink" href="javascript:des('cedes');">What are these?</a>		
+		<a class="bodylink des" data-tid="cedes" href="#">What are these?</a>		
 		<br>
-		<a class="bodylink" href="javascript:prob('ceprob');">Dangers</a>
+		<a class="bodylink prob" data-tid="ceprob" href="#">Dangers</a>
 		<br>
-		<a class="bodylink" href="javascript:sol('cesol');">Disposal</a>
+		<a class="bodylink sol" data-tid="cesol" href="#">Disposal</a>
 	</div>
 	<div id="computer" class="tech">
 		<br>
-		<a class="bodylink" href="javascript:des('codes');">What are these?</a>	
+		<a class="bodylink des" data-tid="codes" href="#">What are these?</a>	
 		<br>
-		<a class="bodylink" href="javascript:prob('coprob');">Dangers</a>
+		<a class="bodylink prob" data-tid="coprob" href="#">Dangers</a>
 		<br>
-		<a class="bodylink" href="javascript:sol('cosol');">Disposal</a>
+		<a class="bodylink sol" data-tid="cosol" href="#">Disposal</a>
 	</div>
 	<div id="television" class="tech">
 		<br>
-		<a class="bodylink" href="javascript:des('tdes');">What are these?</a>		
+		<a class="bodylink des" data-tid="tdes" href="#">What are these?</a>		
 		<br>
-		<a class="bodylink" href="javascript:prob('tprob');">Dangers</a>
+		<a class="bodylink prob" data-tid="tprob" href="#">Dangers</a>
 		<br>
-		<a class="bodylink" href="javascript:sol('tsol');">Disposal</a>
+		<a class="bodylink sol" data-tid="tsol" href="#">Disposal</a>
 	</div>
 
 <div class="section" id="bdes"></div>

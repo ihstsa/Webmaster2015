@@ -6,12 +6,6 @@
 <title>IHS Tech Programs</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" language="JavaScript"><!--
-<!--
-var HideAllShowOne = gen_switch("cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11 e16 bre cas cow kry sau ves bib")
-//-->
-</script>
-
 </head>
 
 <body>
@@ -21,7 +15,7 @@ var HideAllShowOne = gen_switch("cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11
 		<a class="othersite" href="index.html"><span class="movedown">IHS Tech Education</span></a>
 		<a class="othersite" href="ihstsa.html"><span class="movedown">Our TSA</span></s></a>
 	</div>
-    	<object type="image/svg+xml" data="img/techlogo.svg" class="title"><img src="img/techlogo.png" alt="IHS Tech logo" /></object>
+    	<object type="image/svg+xml" data="img/techlogo.svg" class="title noselect"><img src="img/techlogo.png" alt="IHS Tech logo" /></object>
     	<br>
 	<p class="subtitle">Ithaca High School<br>where tech is taught
 	<br>
@@ -40,23 +34,23 @@ var HideAllShowOne = gen_switch("cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11
 <div class = "subjectLinks">
     <p class="text">Ithaca High School offers a plethora of courses for students who want to learn about technology.</p>
     <div class="menu-wrap">
-    <nav class="menu">
+    <nav class="menu selector">
         <ul class="clearfix">
-            <li><a href="javascript:HideAllShowOne('cs');">Computer Science</a>
+            <li><a data-tid="cs" href="#">Computer Science</a>
             <ul class="sub-menu">
-                    <li><a href="javascript:HideAllShowOne('pr12');">Programming 1 and 2</a></li>
-                    <li><a href="javascript:HideAllShowOne('apcomp');">AP Computer Science</a></li>
+                    <li><a data-tid="pr12" href="#">Programming 1 and 2</a></li>
+                    <li><a data-tid="apcomp" href="#">AP Computer Science</a></li>
             </ul>
             </li>
-            <li><a href="javascript:HideAllShowOne('pltw');">Project Lead the Way</a>
+            <li><a data-tid="pltw" href="#">Project Lead the Way</a>
             <ul class="sub-menu">
-                    <li><a href="javascript:HideAllShowOne('ddp');">Design and Drawing for Production</a></li>
-                    <li><a href="javascript:HideAllShowOne('cim');">Computer Integrated Manufacturing</a></li>
-                    <li><a href="javascript:HideAllShowOne('de');">Digital Electronics and Principles of Engineering</a></li>
-                    <li><a href="javascript:HideAllShowOne('edd');">Engineering Design and Development</a></li>
+                    <li><a data-tid="ddp" href="#">Design and Drawing for Production</a></li>
+                    <li><a data-tid="cim" href="#">Computer Integrated Manufacturing</a></li>
+                    <li><a data-tid="de" href="#">Digital Electronics and Principles of Engineering</a></li>
+                    <li><a data-tid="edd" href="#">Engineering Design and Development</a></li>
             </ul>
             </li>
-            <li><a href="javascript:HideAllShowOne('mc');">Digital Media</a></li>
+            <li><a data-tid="mc" href="#">Digital Media</a></li>
         </ul>
     </nav>
     </div>
@@ -64,7 +58,7 @@ var HideAllShowOne = gen_switch("cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11
     <br>
     <br>
     </div>
-    <img id = "jacobBandSaw" src = "Jacob_BandSaw.png" />
+    <img id="jacobBandSaw" src="img/Jacob_BandSaw.png" />
     <p id="cs" class="text"><b>Computer Science:</b>
 Ithaca High School’s Math Department offers three computer science courses. Since the courses concern computers, devices that are today inseparable from technology, the courses are effectively technology courses.</p>
 <p id="pr12" class="text">Programming I and II are two semester-long classes that typically taken in succession. They are designed to prepare students to take AP Computer Science (although many students have successfully skipped to the AP level). Programming I teaches students basic programming in Java, covering objects, classes, and events, as well as basic command structures (if, else, while, etc…). At the end of the course, students embark on a final project, typically programming a game such as Battleship. In Programming II, the class takes a technical turn; students learn why what they programmed in the previous course works to a greater depth. In fact, the class is only a small step away from AP Computer Science.</p>
@@ -78,7 +72,7 @@ Project Lead the Way, or PLTW, is an organization that aims to provide high-qual
 <p id="mc" class="text"><b>Digital Media</b>
 Digital Media is a semester-long course aimed at students interested in graphic design, communications, and, most of all, video production. Students who take this class film videos with camcorders and iPods. They edit videos using different types of software and learn how to use equipment such as microphones and tripods. The culmination of this course is a 30-minute student-produced show. Seniors can also choose to take the English Digital Media class, in which they apply reading, writing, and speaking skills to video production. 
 </p>
-	<img id = "freyaComputer" src = "Freya.png">
+	<img id="freyaComputer" src="img/Freya.png">
     <br>
 </div>
 
@@ -86,12 +80,12 @@ Digital Media is a semester-long course aimed at students interested in graphic 
 <div class = "subjectLinks">
     <p class="text">Ithaca High School has four large tech labs in which classes are taught.</p>
     <div class="menu-wrap">
-    <nav class="menu">
+    <nav class="menu selector">
         <ul class="clearfix">
-            <li><a href="javascript:HideAllShowOne('e1');">E1 Automotive</a>
-            <li><a href="javascript:HideAllShowOne('e4');">E4 Printing</a>
-            <li><a href="javascript:HideAllShowOne('e11');">E11 Woodwork</a>
-            <li><a href="javascript:HideAllShowOne('e16');">E16 Metalwork</a>
+            <li><a data-tid="e1" href="#">E1 Automotive</a>
+            <li><a data-tid="e4" href="#">E4 Printing</a>
+            <li><a data-tid="e11" href="#">E11 Woodwork</a>
+            <li><a data-tid="e16" href="#">E16 Metalwork</a>
             
         </ul>
     </nav>
@@ -110,16 +104,16 @@ Digital Media is a semester-long course aimed at students interested in graphic 
 <div class = "subjectLinks">
     <p class="text">Contact Ithaca High School's amazing teachers with the information below.</p>
     <div class="menu-wrap">
-    <nav class="menu">
+    <nav class="menu selector">
         <ul class="clearfix">
-            <li><a href="javascript:HideAllShowOne('bre');">Mr. Breigle</a></li>
-            <li><a href="javascript:HideAllShowOne('cas');">Mr Cass</a></li>
-            <li><a href="javascript:HideAllShowOne('cow');">Mr. Cowell</a></li>
-            <li><a href="javascript:HideAllShowOne('kry');">Mr. Krywe</a></li>
-            <li><a href="javascript:HideAllShowOne('sau');">Mr. Sauve</a></li>
-            <li><a href="javascript:HideAllShowOne('sev');">Mr. Sevilla</a></li>
-            <li><a href="javascript:HideAllShowOne('kie');">Ms. Kiechle</a></li>
-            <li><a href="javascript:HideAllShowOne('dep');">Mr. Deppe</a></li>
+            <li><a data-tid="bre" href="#">Mr. Breigle</a></li>
+            <li><a data-tid="cas" href="#">Mr Cass</a></li>
+            <li><a data-tid="cow" href="#">Mr. Cowell</a></li>
+            <li><a data-tid="kry" href="#">Mr. Krywe</a></li>
+            <li><a data-tid="sau" href="#">Mr. Sauve</a></li>
+            <li><a data-tid="sev" href="#">Mr. Sevilla</a></li>
+            <li><a data-tid="kie" href="#">Ms. Kiechle</a></li>
+            <li><a data-tid="dep" href="#">Mr. Deppe</a></li>
         </ul>
     </nav>
     </div>
@@ -138,7 +132,7 @@ Digital Media is a semester-long course aimed at students interested in graphic 
     <p id="kie" class="text">(Text about Ms. Kiechel Here)</p>
     <p id="dep" class="text">(Text about Mr. Deppe)</p>
 </div>
-    <a class="sitelink" href="javascript:HideAllShowOne('bib');">Bibliography</a></p>
+    <a class="sitelink" data-tid="bib" href="#">Bibliography</a></p>
 
 <div id="bib" class="section"><p class="text">Bibliography:<br>
 Cass, Steve. "Digital Media." Interview. 3 Mar. 2015. Email.<br>

@@ -1,18 +1,33 @@
 $ = document.getElementById.bind(document);
-function ReverseDisplay(d) {
-    e = $(d)
-    e.style.display = e.style.display == "none" ? "block" : "none";
+function activate(el, list){
+        for(var i = 0; i < list.length; i++){
+            $(list[i]).style.display = "none";
+        }
+        $(el).style.display = "block";
 }
+//var HideAllShowOne = gen_switch("cs pr12 apcomp pltw ddp cim de edd mc e1 e4 e11 e16 bre cas cow kry sau sev bib")
 
-function gen_switch(ids) {
-    var idl = ids.split(" ")
-    return function(id){
-        for(var i = 0; i < idl.length; i++){
-	    $(idl[i]).style.display = "none";
-	}
-	$(id).style.display = "block";
-    }
+function enable(links){
+	var tlinks = []
+        for(var j = 0; j < links.length; j++){
+                var l = links[j];
+                if(l.getAttribute("data-tid") == null) continue;
+                tlinks.push(l.getAttribute("data-tid"))
+                l.addEventListener("click", function(event){
+                        activate(this.getAttribute("data-tid"), tlinks);
+                        event.preventDefault();
+                        return false;
+                })
+        }
 }
+window.addEventListener("load", function(){
+var x = document.getElementsByClassName("selector")
+for(var i = 0; i < x.length; i++){
+        var pel = x[i];
+        var links = pel.getElementsByTagName("a");
+	enable(links);
+}
+})
 
 window.addEventListener('load', function(){
 	var el = document.getElementById('sitelinks');
