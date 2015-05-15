@@ -80,7 +80,7 @@ body{
 }
 #wastes{
 	width: 100%;
-	height: calc(100vh - 50px);
+	height: calc(40vh - 50px);
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0%;
