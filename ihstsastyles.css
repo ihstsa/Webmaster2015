@@ -88,10 +88,14 @@ body{
 #competitions{
 	background-color: rgb(230,230,230);
 }
+#fundraising{
+	
+}
 #service{
+	background-color: rgb(230,230,230);
 }
 #leadership{
-	background-color: rgb(230,230,230);
+
     height: 490px;
 }
 /*Assorted Styles*/
