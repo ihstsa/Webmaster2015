@@ -90,13 +90,13 @@ body{
 	background-image: url(img/bottomright.PNG);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	max-height: 500px;
+	height: 500px;
 }
 #labs{
-	max-height: 490px;
+	height: 490px;
 }
 #contact{
-	max-height: 490px;
+	height: 490px;
 }
 #map{
     background-image: url("");
