@@ -94,15 +94,9 @@ body{
 	max-height: 490px;
 }
 #labs{
-	background-image: url(img/topleft.PNG);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	max-height: 490px;
 }
 #contact{
-	background-image: url(img/bottomright.PNG);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	max-height: 490px;
 }
 #map{
