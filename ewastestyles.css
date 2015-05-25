@@ -182,3 +182,11 @@ p.techTypeContent {
   padding-left: 10vw;
   text-indent: 3em;
 }
+
+.tech:hover > a {
+  visibility: visible;
+}
+
+.tech > a{
+  visibility: hidden;
+}
