@@ -66,7 +66,6 @@ body{
 /*Content*/
 .section{
     width: 100%;
-        min-height: 600px;
     overflow-y: auto;
     text-align: center;
     z-index: 0;
@@ -91,7 +90,7 @@ body{
 	background-image: url(img/bottomright.PNG);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	max-height: 470px;
+	max-height: 500px;
 }
 #labs{
 	max-height: 490px;
