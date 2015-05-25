@@ -128,7 +128,7 @@ br{
     font-size: 34px;
     line-height: 72px;
     width: 60%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .bodylink{
     color: rgb(47,128,194);
@@ -234,5 +234,5 @@ br{
 	width: 500px;
 	right: 0px;
 	position: absolute;
-	margin-top: -273px;
+	margin-top: -197px;
 }
