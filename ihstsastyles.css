@@ -117,7 +117,7 @@ br{
     display: inline-block;
 }
 .subtitle{
-    text-align: left;
+    text-align: center;
     font-size: 34px;
     line-height: 72px;
 }
