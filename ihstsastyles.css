@@ -86,10 +86,12 @@ body{
 #aboutus{
 }
 #competitions{
+	background-color: rgb(230,230,230);
 }
 #service{
 }
 #leadership{
+	background-color: rgb(230,230,230);
     height: 490px;
 }
 /*Assorted Styles*/
