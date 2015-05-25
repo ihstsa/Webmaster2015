@@ -175,3 +175,10 @@ br{
 #bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes, #bib, #map{
 	display: none;
 }
+
+p.batteryContent {
+  text-align: left;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  text-indent: 3em;
+}
