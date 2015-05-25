@@ -5,27 +5,19 @@ body{
     height: 100%;
     margin: auto;
 }
-/*Menu*/
-#menu{
-    background-image: url("img/ihstsa.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 80%;
-    height: 120px;
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-}
-#filler{
-    height: 150px;
-}
 #othersites{
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: inline-block;
-    height: 115px;
+    margin: auto;
+    text-align: center;
 }
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .othersite{
     position: relative;
     display: inline-block;
@@ -45,18 +37,13 @@ body{
     background-size: 200px 5px;
     background-position: center top;
 }
-#title, #sitelinks{
-    position: static;
-    display: inline-block;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-.title{
-    font-size: 60px;
-    font-weight: heavy;
-    margin: 0px;
-    color: gray;
+#sitelinks{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	z-index: 10;
+	background-color: rgb(230,230,230);
+	top: 0;
 }
 .sitelink{
     display: inline-block;
@@ -78,36 +65,45 @@ body{
 }
 /*Content*/
 .section{
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
+        min-height: 600px;
     overflow-y: auto;
     text-align: center;
-    align-items: center;
-    min-height: 600px;
     z-index: 0;
 }
 #intro{
-    background-image: url("img/techbackground.png");
+    text-align: center;
+    background-color: rgb(230,230,230);
+    background-image: url(img/background.PNG);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto 500px;
-    height: 90vh;
-    max-height: 600px;
+    background-size: 100% auto;
+/*    overflow-y: hidden;*/
+    min-height: 100vh;
 }
-#act{
+.title{
+	width: 70%;
+	max-width: 700px;
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
-#fun{
+#courses{
+	background-image: url(img/bottomright.PNG);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-height: 490px;
 }
-#lea{
+#labs{
+	background-image: url(img/topleft.PNG);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-height: 490px;
 }
-#leainfo{
-}
-#about{
-    background-color: rgb(64,64,64);
-    position: static;
-    height: 60px;
-    width: 100%;
+#contact{
+	background-image: url(img/bottomright.PNG);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-height: 490px;
 }
 #map{
     background-image: url("");
@@ -116,36 +112,28 @@ body{
     background-position: center;
     height: 763px;
 }
-#footer{
-	height: 1px;
-	width: 100%;
-	background-color: gray
-}
 /*Assorted Styles*/
 br{
     color: rgb(40,40,40);
     line-height: 20px;
     height: 20px;
 }
-.subtitle{
-    text-align: center;
-    font-size: 30px;
-    line-height: 36px;
-}
 .text{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
+    display: inline-block;
 }
 .smalltext{
     text-align: justify;
     font-size: 18px;
     line-height: 24px;
+    display: inline-block;
 }
-.centertext{
-    text-align: center;
-    font-size: 24px;
-    line-height: 36px;
+.subtitle{
+    text-align: left;
+    font-size: 34px;
+    line-height: 72px;
 }
 .bodylink{
     color: rgb(47,128,194);
@@ -168,25 +156,8 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
-.about{
-    color: lightgray;
-    font-size: 36px;
-    margin-left: 10%;
-    margin-right: 50px;
-}
-.arrow{
-    display: inline-block;
-    font-size: 60px;
-    vertical-align: middle;
-    font-family: 'Zapf Dingbats';
-}
-.officer{
-	display: inline-block;
-	max-height: 350px;
-	max-width: 35opx;
-}
 /*JS Stuff*/
-#cat, #co2, #vg, #ch, #cr, #be, #leainfo{
+#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
     display: none;
 }
 /*----- Menu Outline -----*/
@@ -254,4 +225,19 @@ br{
 .menu-wrap a
 {
     text-decoration: none;
+}
+
+#jacobBandSaw
+{
+	width: 500px;
+	left:0px;
+	position: absolute;
+}
+
+#freyaComputer
+{
+	width: 500px;
+	right: 0px;
+	position: absolute;
+	margin-top: -200px;
 }
