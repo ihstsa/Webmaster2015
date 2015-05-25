@@ -73,10 +73,6 @@ body{
 }
 #intro{
     text-align: center;
-    background-color: rgb(230,230,230);
-    background-image: url(img/background.PNG);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
 /*    overflow-y: hidden;*/
     min-height: 100vh;
 }
@@ -87,30 +83,14 @@ body{
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-#courses{
-	background-image: url(img/bottomright.PNG);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	max-height: 490px;
+#aboutus{
 }
-#labs{
-	background-image: url(img/topleft.PNG);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	max-height: 490px;
+#competitions{
 }
-#contact{
-	background-image: url(img/bottomright.PNG);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	max-height: 490px;
+#service{
 }
-#map{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position: center;
-    height: 763px;
+#leadership{
+    height: 490px;
 }
 /*Assorted Styles*/
 br{
