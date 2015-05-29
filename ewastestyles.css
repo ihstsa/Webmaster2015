@@ -175,8 +175,8 @@ br{
 	border-color: rgb(71,108,94);
 	background-color: rgb(71,108,94);
 	background-image: url(img/Phone.svg);
-	background-size: 650% 650%;
-	background-position: -10px -100px;
+	background-size: 600% 600%;
+	background-position: 32px -140px;
 }
 #computer, #codes, #coprob, #cosol{
 	border-color: rgb(206,240,157);
