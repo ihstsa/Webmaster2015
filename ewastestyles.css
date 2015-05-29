@@ -188,7 +188,7 @@ br{
 #television, #tdes, #tprob, #tsol{
 	border-color: rgb(174,224,1);
 	background-color: rgb(174,224,1);
-	background-image: url(img/Television.svg);
+	background-image: url(img/TV.svg);
 	background-size: 650% 650%;
 	background-position: -10px -100px;
 }
