@@ -27,7 +27,7 @@ body{
     background-position: center top;
 }
 #sitelinks{
-    width: 100vw;
+    width: 100%;
     padding-right: -20%;
     text-align: center;
     z-index: 0;
