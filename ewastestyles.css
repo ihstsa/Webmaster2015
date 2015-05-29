@@ -168,8 +168,8 @@ br{
 	border-color: rgb(184,236,215);
 	background-color: rgb(184,236,215);
 	background-image: url(img/Camera.svg);
-	background-size: 650% 650%;
-	background-position: -10px -100px;
+	background-size: 500% 500%;
+	background-position: 0px -85px;
 }
 #cellphone, #cedes, #ceprob, #cesol{
 	border-color: rgb(71,108,94);
