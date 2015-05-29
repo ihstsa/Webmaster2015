@@ -99,6 +99,9 @@ body{
 	text-align: center;
 	vertical-align: middle;
 }
+#about{
+	height: 50px;
+}
 #map{
     background-color: white;
 }
