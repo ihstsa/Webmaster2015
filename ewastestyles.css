@@ -43,6 +43,8 @@ body{
 }
 .sitelink:hover{
     display: inline-block;
+    margin-right: 35px;
+    height: 50px;
     background-image: url("img/linkgreen.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
@@ -86,7 +88,7 @@ body{
 }
 .tech{
 	display: inline-block;
-max-width: 200px;
+	max-width: 200px;
 	width: 20%;
 	min-height: 200px;
 	border-style: solid;
