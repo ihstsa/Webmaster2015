@@ -182,8 +182,8 @@ br{
 	border-color: rgb(206,240,157);
 	background-color: rgb(206,240,157);
 	background-image: url(img/Computer.svg);
-	background-size: 650% 650%;
-	background-position: -10px -100px;
+	background-size: 170% 170%;
+	background-position: 22px -15px;
 }
 #television, #tdes, #tprob, #tsol{
 	border-color: rgb(174,224,1);
