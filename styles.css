@@ -151,12 +151,13 @@ display: inline-block;
 	width: 20%;
 	min-height: 200px;
 	border-style: solid;
+	border-color: rgb(200,200,200);
 	border-radius: 120px;
 	border-width: 20px;
-	font-size: 22px;
-	line-height: 36px;
-	text-align: center;
 	vertical-align: middle;
+}
+.tech:hover{
+	opacity: .7;
 }
 /*Assorted Styles*/
 br{
