@@ -72,11 +72,8 @@ body{
 }
 #intro{
     text-align: center;
-    background-color: rgb(230,230,230);
-    background-image: url(img/background.PNG);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: calc(100vh - 50px);
+    background-color: white;
+    height: 450px;
 }
 .title{
 	width: 70%;
@@ -86,7 +83,7 @@ body{
 	margin-bottom: 2%;
 }
 #courses{
-	background-image: url(img/bottomright.PNG);
+	background-color: rgb(230,230,230);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 500px;
