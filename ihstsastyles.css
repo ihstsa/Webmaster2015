@@ -204,6 +204,7 @@ display: inline-block;
 #cfre{
 	background-image: url(img/freya2.png);
 	background-size: 100% auto;
+	background-position: 0px 5px;
 }
 
 #ctri{
