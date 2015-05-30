@@ -235,10 +235,7 @@ p.techTypeContent {
   text-indent: 3em;
 }
 
-.tech:hover > a {
-  visibility: visible;
-}
-
-.tech > a{
-  visibility: hidden;
+.tech:hover
+{
+	opacity:.7;
 }
