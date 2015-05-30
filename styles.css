@@ -112,7 +112,7 @@ display: inline-block;
 }
 #ihs{
 	background-color: white;
-	height: 500px;
+	height: 550px;
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
@@ -128,6 +128,7 @@ display: inline-block;
 #contact{
 	height: 490px;
 	text-align: center;
+	background-color: rgb(230,230,230);
 }
 #map{
     background-image: url("");
