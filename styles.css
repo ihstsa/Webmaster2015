@@ -73,7 +73,7 @@ body{
 #intro{
     text-align: center;
     background-color: rgb(230,230,230);
-    background-image: url(img/background.PNG);
+    background-image: url(img/background.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
 /*    overflow-y: hidden;*/
