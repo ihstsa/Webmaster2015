@@ -188,6 +188,31 @@ display: inline-block;
 .tech:hover{
 	opacity: .7;
 }
+
+#czak{
+	background-image: url(img/zak.png);
+	background-size: 100% auto;
+}
+
+#cjac{
+	background-image: url(img/jacob.png);
+	background-size: 100% auto;
+}
+
+#cfre{
+	background-image: url(img/freya.png);
+	background-size: 100% auto;
+}
+
+#ctri{
+	background-image: url(img/tristan.png);
+	background-size: 100% auto;
+}
+
+#csop{
+	background-image: url(img/sophie.png);
+	background-size: 100% auto;
+}
 /*JS Stuff*/
     display: nfone;
 }
