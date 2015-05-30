@@ -208,8 +208,7 @@ br{
 #freyaComputer
 {
 	width: 500px;
-	right: 0px;
-	position: absolute;
+	float: right;
 	margin-top: -197px;
 }
 
