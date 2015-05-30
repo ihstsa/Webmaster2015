@@ -114,9 +114,6 @@ display: inline-block;
 	background-color: white;
 	height: 500px;
 	text-align: center;
--webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
 }
 #courses{
 	background-color: rgb(230,230,230);
@@ -193,10 +190,7 @@ br{
 }
 
 .iframe{
-	-webkit-column-span: 1; /* Chrome, Safari, Opera */
-    -moz-column-spant: 1; /* Firefox */
-    column-span: 1;
-    display: inline-block;
+	float: right;
 }
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
