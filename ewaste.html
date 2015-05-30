@@ -1,241 +1,120 @@
-body{
-    font-family: "Sans Pro", sans-serif;
-    font-weight: lighter;
-    margin: auto;
-}
-#othersites{
-    margin: auto;
-    display: inline-block;
-}
-.othersite{
-    position: relative;
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: gray;
-    text-decoration: none;
-    padding-top: 15px;
-}
-.othersite:hover{
-    position: relative;
-    text-decoration: none;
-    color: rgb(120,110,110);
-    background-image: url("img/gray.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center top;
-}
-#sitelinks{
-    width: 100%;
-    text-align: center;
-    z-index: 0;
-    background-color: rgb(230,230,230);
-    height: 55px
-}
-.sitelink{
-    display: inline-block;
-    margin-right: 50px;
-    text-decoration: none;
-    color: rgb(94,171,0);
-    font-size: 24px;
-    line-height: 36px;
-}
-.sitelink:hover{
-    display: inline-block;
-    margin-right: 50px;
-    height: 50px;
-    background-image: url("img/linkgreen.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center bottom;
-    text-decoration: none;
-    color: rgb(128,194,47);
-}
-/*Content*/
-.section{
-    width: 100%;
-    overflow-y: auto;
-    text-align: center;
-    z-index: 0;
-    	border-style: solid;
-	border-top: 20px;
-	border-left: 0px;
-	border-right: 0px;
-	border-bottom: 0px;
-}
-#pane1{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 50px;
-}
-#pane2{
-    text-align: center;
-    background-color: rgb(230,230,230);
-}
-.title{
-	width: 70%;
-	max-width: 700px;
-	display: inline-block;
-	margin-top: 7%;
-	margin-bottom: 7%;
-}
-#wastes{
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin: 0%;
-}
-.tech{
-	display: inline-block;
-	max-width: 200px;
-	width: 20%;
-	min-height: 200px;
-	border-style: solid;
-	border-radius: 120px;
-	border-width: 20px;
-	font-size: 22px;
-	line-height: 36px;
-	text-align: center;
-	vertical-align: middle;
-}
-#drop{
-	background-color: rgb(230,230,230);
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-#sitelinks{
-    width: 100%;
-    text-align: center;
-    z-index: 0;
-    background-color: white;
-    height: 55px
-}
-.sitelink{
-    display: inline-block;
-    margin-right: 50px;
-    text-decoration: none;
-    color: rgb(94,171,0);
-    font-size: 24px;
-    line-height: 36px;
-}
-.sitelink:hover{
-    display: inline-block;
-    margin-right: 50px;
-    height: 50px;
-    background-image: url("img/linkgreen.png");
-    background-repeat: no-repeat;
-    background-size: 200px 5px;
-    background-position: center bottom;
-    text-decoration: none;
-    color: rgb(128,194,47);
-}
-#map{
-    background-color: white;
-}
-#bib{
-background-color: white;
-}
-/*Assorted Styles*/
-br{
-    color: rgb(40,40,40);
-    line-height: 20px;
-    height: 20px;
-}
-.subtitle{
-    text-align: center;
-    display: inline;
-    font-size: 24px;
-    line-height: 36px;
-}
-.text{
-    text-align: left;
-    font-size: 24px;
-    line-height: 36px;
-    max-width: 80%;
-    display: inline-block;
-}
-.smalltext{
-	text-align: left;
-	font-size: 20px;
-	line-height: 36px;
-	max-width: 80%;
-	display: inline-block;
-}
-.centertext{
-    text-align: center;
-    font-size: 24px;
-    line-height: 36px;
-    color: black;
-}
-.bodylink{
-    color: rgb(94,171,0);
-    text-decoration: none;
-    cursor: pointer;
-}
-.bodylink:hover{
-    color: rgb(128,194,47);
-    text-decoration: none;
-    cursor: pointer;
-}
-.linktext{
-    color: rgb(94,171,0);
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: none;
-}
-.linktext:hover{
-    color: rgb(128,194,47);
-    text-decoration: none;
-    cursor: pointer;
-}
-#battery, #bdes, #bprob, #bsol{
-	border-color: rgb(8,54,67);
-	background-color: rgb(8,54,67);
-	background-image: url(img/Battery.svg);
-	background-size: 650% 650%;
-	background-position: -10px -100px;
-}
-#camera, #cades, #caprob, #casol{
-	border-color: rgb(184,236,215);
-	background-color: rgb(184,236,215);
-	background-image: url(img/Camera.svg);
-	background-size: 500% 500%;
-	background-position: 0px -85px;
-}
-#cellphone, #cedes, #ceprob, #cesol{
-	border-color: rgb(71,108,94);
-	background-color: rgb(71,108,94);
-	background-image: url(img/Phone.svg);
-	background-size: 600% 600%;
-	background-position: 32px -140px;
-}
-#computer, #codes, #coprob, #cosol{
-	border-color: rgb(206,240,157);
-	background-color: rgb(206,240,157);
-	background-image: url(img/Computer.svg);
-	background-size: 170% 170%;
-	background-position: 22px -15px;
-}
-#television, #tdes, #tprob, #tsol{
-	border-color: rgb(174,224,1);
-	background-color: rgb(174,224,1);
-	background-image: url(img/TV.svg);
-	background-size: 170% 170%;
-	background-position: 13px 0px;
-}
-#bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes, #bib, #map{
-	display: none;
-}
+<!DOCTYPE html>
+<html>
 
-p.techTypeContent {
-  text-align: left;
-  padding-right: 10vw;
-  padding-left: 10vw;
-  text-indent: 3em;
-}
+<head>
+<meta charset="UTF-8">
+<title>Design Brief</title>
+<link rel="stylesheet" type="text/css" href="ewastestyles.css">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" language="JavaScript"><!--
+var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
+var sol = gen_switch("bsol solutions casol cesol cosol tsol")
+var des = gen_switch("bdes cades cedes codes tdes")
+var bottom = gen_switch("bib map")
+//--></script>
+</head>
 
-.tech:hover
-{
-	opacity:.7;
-}
+<body>
+<div id="pane1" class="section">
+	
+	<div id="othersites" class="text">
+		<a class="othersite" href="ewaste.html"><span class="movedown">Ewaste</span></a>
+		<a class="othersite" href="index.html"><span class="movedown">IHS Tech Education</span></a>
+		<a class="othersite" href="ihstsa.html"><span class="movedown">Our TSA</span></s></a>
+	</div>
+    	<br>
+    	<img class="title" src="img/ewaste.png">
+    	<br>
+	<p class="subtitle">Today's technology, tomorrow's problem.</p>
+	<br>
+	<p class="subtitle">But we can stop it.
+	<br>
+	<br>
+</div>
+
+<div id="pane2" class="section">
+
+<div id="problems" class="section">
+	<p class="text">When the technology is thrown into a landfill, <b>dangerous chemicals can seep into the environment</b> and cause <b>damage throughout the food chain</b> as plants and animals consume contaminated water and through biomagnification. That's why it's <b>illegal</b> in New York State.</p>
+</div>
+
+<div id="solutions" class="section" class="text">
+    <p class="text">Luckily, correct, <b>environmentally-friendly</b>, and <b>legal</b> disposal of e-waste is extremely <b>easy</b> in Ithaca, New York. All have to do is <b>identify</b> what type of e-waste you have, figure out <b>what should happen to it</b>, and bring it to the <b>appropriate place</b>.
+    </p>
+</div>
+</div>
+
+<div id="wastes" class="section" class="subtitle">
+	
+	<p class="subtitle">Learn about the specific dangers and specifically how you should dispose of old electronics.</p>
+	<br>
+	<br>
+	<br>
+	<a class="bodylink" href="batteries.html"><div id="battery" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" class="bodylink" href="cameras.html"><div id="camera" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" href="cellphones.html"><div id="cellphone" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" href="computers.html"><div id="computer" class="tech">
+		<br>
+	</div></a>
+	<a href="tvs.html"><div id="television" class="tech">
+		<br>
+	</div></a>
+</div>
+
+<div id="drop" class="section">
+
+	<p class="subtitle">Drop off e-waste at the Tomkins County Recycling and Solid Waste Center:</p>
+	<br>
+	<br>
+<iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/search?q=Tompkins+County+Solid+Waste+Management,+Commercial+Avenue,+Ithaca,+NY,+United+States&key=AIzaSyDyBCqiNgvw6Li-Sc--PREQZYQdrmfHReQ"></iframe>
+</div>
+
+
+    <div id="sitelinks" class="section">
+    <a class="sitelink" href="javascript:bottom('map');">Site Map</a>
+    <a class="sitelink" href="javascript:bottom('bib');">Bibliography</a></p>
+    </div>
+    
+<div id="map" class="section"><p class="text">Site Map</p></div>
+<div id="bib" class="section"><p class="text">Bibliography<br>
+Anthony, Paulie. "Cell Phone Toxins and the Harmful Effects on the Human Body When Recycled
+Improperly." E-Cycle. E-Cycle LLC, 15 Oct. 2013. Web. 17 Mar. 2015.
+"Batteries, Common Wastes & Materials." EPA. Environmental Protection Agency, 19 Nov. 2012.<br>
+Web. 29 Dec. 2014.
+"Call2Recycle Collection Box." Call2Recycle. Call2Recycle, Inc., 2015. Web. 20 Jan. 2015.<br>
+Casler, Andrew. "New York Law Makes Throwing Away Electronics Illegal." Ithaca Journal. N.p.,
+30 Dec. 2014. Web. 29 Mar. 2015.<br>
+"Charitable Computer Reuse and Recycling." InterConnection.org. N.p., n.d. Web. 12 Mar.
+2015.<br>
+Dillon, Colleen. The Ecological Impact of Batteries. Carnegie Mellon University.Engineering
+Design Research Center., 1994. Web. 20 Jan. 2015.<br>
+"Easy on the Planet." Staples.com. Staples, Inc., n.d. Web. 18 Jan. 2015.
+"Electronics Donation and Recycling." EPA. Environmental Protection Agency, 9 Feb. 2015. Web.
+17 Mar. 2015.<br>
+E-Stewards. E-Stewards, 2015. Web. 17 Mar. 2015.
+"Ithaca Electronic Waste Recycling." All Green Electronics Recycling Ithaca Electronic Waste
+Recycling Comments. All Green Electronics Recycling, 2015. Web. 29 Mar. 2015.
+"Ithaca NY Rechargeable Battery Recycling." ECycling Center. ECyclingCenter.com, 2013. Web.
+17 Mar. 2015.<br>
+"NLR, Inc : : About Us." NLR. Next Level for Recycling, n.d. Web. 17 Mar. 2015.
+"RadioShack Keeps It Clean and Green." RadioShack. RadioShack Corp., 2015. Web. 20 Jan.
+2015.<br>
+Rao, L. Nageswara. Environmental Impact of Uncontrolled Disposal of E-Wastes. Sphinxsai.
+International Journal of Chem Tech Research, n.d. Web. 17 Mar. 2015.
+"Recycle How To's." Cornell University Facilities Services Facilities Operations. Cornell University,
+2005. Web. 20 Jan. 2015.<br>
+"Recycling and Solid Waste Center." Recycling and Solid Waste of Tompkins County. Tompkins
+County Solid Waste, n.d. Web. 20 Jan. 2015.<br>
+"Used Electronic Equipment FAQs." New York State Department of Environmental Conservation.
+New York State Department of Environmental Conservation, n.d. Web. 20 Jan. 2015.</p></div>
+</div>
+</body>
+
+</html>
