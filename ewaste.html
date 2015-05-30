@@ -8,11 +8,15 @@
 <link rel="stylesheet" type="text/css" href="flowchart.css" />
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="flowchart.js"></script>
-<script type="text/javascript" language="JavaScript"><!--
+<script type="text/javascript" language="JavaScript">//<!--
 var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
 var sol = gen_switch("bsol solutions casol cesol cosol tsol")
 var des = gen_switch("bdes cades cedes codes tdes")
 var bottom = gen_switch("bib map")
+var $ = document.getElementById.bind(document);
+window.addEventListener('load', function(){
+	setup_fc($('flowchart1'), data1)
+});
 //--></script>
 </head>
 
