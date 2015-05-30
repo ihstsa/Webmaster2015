@@ -73,7 +73,7 @@ body{
 #intro{
     text-align: center;
     background-color: white;
-    height: 450px;
+    height: 600px;
 }
 .title{
 	width: 70%;
@@ -82,10 +82,13 @@ body{
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
+#ihs{
+	background-color: white;
+	height: 500px;
+	text-align: center;
+}
 #courses{
 	background-color: rgb(230,230,230);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	height: 500px;
 	text-align: center;
 }
