@@ -14,7 +14,25 @@
     margin-right: 25px;
     text-decoration: none;
 }
+#batteries{
+    background-color: rgba(8,54,67,.5);
+}
 
+#cameras{
+    background-color: rgba(8,54,67,.5);
+}
+
+#phones{
+    background-color: rgba(8,54,67,.5);
+}
+
+#computers{
+    background-color: rgba(8,54,67,.5);
+}
+
+#tvs{
+    background-color: rgba(8,54,67,.5);
+}
 .b{
     color: rgb(8,54,67);
 }
