@@ -114,6 +114,7 @@ br{
     font-size: 24px;
     line-height: 36px;
     display: inline-block;
+    max-width: 80%;
 }
 .smalltext{
     text-align: justify;
