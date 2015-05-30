@@ -120,6 +120,8 @@ display: inline-block;
 	background-color: rgb(230,230,230);
 	height: 500px;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #labs{
 	height: 490px;
