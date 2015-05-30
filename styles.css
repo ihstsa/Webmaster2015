@@ -90,12 +90,15 @@ body{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 500px;
+	text-align: center;
 }
 #labs{
 	height: 490px;
+	text-align: center;
 }
 #contact{
 	height: 490px;
+	text-align: center;
 }
 #map{
     background-image: url("");
