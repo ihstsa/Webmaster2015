@@ -13,9 +13,38 @@ var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
 var sol = gen_switch("bsol solutions casol cesol cosol tsol")
 var des = gen_switch("bdes cades cedes codes tdes")
 var bottom = gen_switch("bib map")
+
 var $ = document.getElementById.bind(document);
+var tvData = {
+  'Is your television broken?': {
+    'Yes': {
+      'Try to fix it. Has the problem gone away?': {
+        'Yes': 'Enjoy your improved television!',
+        'No': {
+          'Is the television mostly usabe?' :{
+            'Yes' : {
+              'Donate it to people without televisions' : {
+              	'Learn more' : '<a href=http://interconnection.org>interconnection.org is a website you can use to donate old televisions to people who will use them. Reusing is better than recycling, too!'
+              }
+            },
+            'No' : 'Bring your television to the Recycling and Solid Waste Center, where it can be responsibly disposed of. <a href="#drop">Learn more</a>'
+          }
+        }
+      }
+    },
+    'No, I just don't want mine.: {
+      'Is the television mostly usabe?' :{
+        'Yes' : {
+          'Donate it to people without televisions' : {
+            'Learn more' : '<a href=http://interconnection.org>interconnection.org is a website you can use to donate old televisions to people who will use them. Reusing is better than recycling, too!'
+          }
+        },
+        'No' : 'Bring your television to the Recycling and Solid Waste Center, where it can be responsibly disposed of. <a href="#drop">Learn more</a>'
+      }
+    }
+  }};
 window.addEventListener('load', function(){
-	setup_fc($('flowchart1'), data1)
+	setup_fc($('flowchart1'), tvData)
 });
 //--></script>
 </head>
