@@ -136,6 +136,20 @@ display: inline-block;
     background-position: center;
     height: 763px;
 }
+
+.tech{
+	display: inline-block;
+	max-width: 200px;
+	width: 20%;
+	min-height: 200px;
+	border-style: solid;
+	border-radius: 120px;
+	border-width: 20px;
+	font-size: 22px;
+	line-height: 36px;
+	text-align: center;
+	vertical-align: middle;
+}
 /*Assorted Styles*/
 br{
     color: rgb(40,40,40);
