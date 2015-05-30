@@ -76,7 +76,7 @@ body{
 	background-position: center bottom;
 	background-repeat: no-repeat;
     text-align: center;
-    background-color: rbg();
+      background-color: rgba(20,80,200,.4);
     height: calc(100vh - 50px);
 }
 .title{
