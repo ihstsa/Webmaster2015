@@ -114,6 +114,8 @@ display: inline-block;
 	background-color: white;
 	height: 500px;
 	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 #courses{
 	background-color: rgb(230,230,230);
