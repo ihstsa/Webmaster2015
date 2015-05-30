@@ -71,6 +71,64 @@ var bottom=gen_switch("bib map")
     		to 5,000 dollars, adding a material reason to dispose of batteries correctly. For all
     		New Yorkers, disposal of rechargeable batteries as solid waste has been illegal since 
     		December 5, 2011. </p>
+    		
+    		$line_color = green;
+body {
+    font-family: sans-serif;
+}
+#flowchart {
+    /*table-layout: fixed;*/
+    width: 100%;
+}
+
+th {
+    white-space: nowrap;
+    padding-bottom: 0.5em;
+}
+
+#flowchart > div {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+}
+#flowchart a {
+    text-decoration: none;
+}
+
+.final {
+    text-align: center
+}
+
+.arrow {
+    height: 7.5px;
+    border-width: 3px;
+    border-color: $line_color;
+    border-bottom: 2px solid $line_color;
+    margin-bottom: 0;
+/*    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;*/
+}
+.arrow.right {
+    border-right-style: solid;
+    text-align: left;
+}
+.arrow.left {
+    border-left-style: solid;
+    text-align: right;
+}
+.achar {
+    margin-top:-2px;
+    text-align: center;
+    height:10px;
+    overflow:hidden;
+    color: $line_color;
+}
+.achar span {
+    top: -0.35em;
+    display: inline-block;
+    position:relative;
+    transform: scale(0.75, 1);
+}
     	
     </div>
     
@@ -138,6 +196,8 @@ Lead, which is officially classified as a hazardous substance, is a carcinogen o
 </p>
 	<p class="text">Mercury, another substance in televisions, is extremely damaging to the brain. Mercury is especially harmful when it combines with carbon and hydrogen to become methylmercury, which can also cause blindness and impair muscle tone. Mercury also causes respiratory and skin disorders. 
 </p>
+
+
     	
     </div>
 
