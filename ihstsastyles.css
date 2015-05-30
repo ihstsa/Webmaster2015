@@ -73,7 +73,6 @@ body{
 }
 #intro{
     text-align: center;
-/*    overflow-y: hidden;*/
     min-height: 100vh;
 }
 .title{
@@ -84,19 +83,26 @@ body{
 	margin-bottom: 2%;
 }
 #aboutus{
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 #competitions{
 	background-color: rgb(230,230,230);
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 #fundraising{
-	
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 #service{
 	background-color: rgb(230,230,230);
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 #leadership{
-
-    height: 490px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 /*Assorted Styles*/
 br{
