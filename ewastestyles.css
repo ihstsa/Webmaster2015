@@ -192,37 +192,32 @@ br{
 #battery, #bdes, #bprob, #bsol{
 	border-color: rgb(8,54,67);
 	background-color: rgb(8,54,67);
-	background-image: url(img/Battery.svg);
+	background-image: url(img/battery.png);
 	background-size: 650% 650%;
-	background-position: -10px -100px;
 }
 #camera, #cades, #caprob, #casol{
 	border-color: rgb(184,236,215);
 	background-color: rgb(184,236,215);
-	background-image: url(img/Camera.svg);
+	background-image: url(img/camera.png);
 	background-size: 500% 500%;
-	background-position: 0px -85px;
 }
 #cellphone, #cedes, #ceprob, #cesol{
 	border-color: rgb(71,108,94);
 	background-color: rgb(71,108,94);
-	background-image: url(img/Phone.svg);
+	background-image: url(img/phone.svg);
 	background-size: 600% 600%;
-	background-position: 32px -140px;
 }
 #computer, #codes, #coprob, #cosol{
 	border-color: rgb(206,240,157);
 	background-color: rgb(206,240,157);
-	background-image: url(img/Computer.svg);
+	background-image: url(img/computer.png);
 	background-size: 170% 170%;
-	background-position: 22px -15px;
 }
 #television, #tdes, #tprob, #tsol{
 	border-color: rgb(174,224,1);
 	background-color: rgb(174,224,1);
-	background-image: url(img/TV.svg);
+	background-image: url(img/tv.png);
 	background-size: 170% 170%;
-	background-position: 13px 0px;
 }
 #bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes, #bib, #map{
 	display: none;
