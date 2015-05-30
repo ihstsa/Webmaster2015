@@ -196,6 +196,7 @@ br{
 	-webkit-column-span: 1; /* Chrome, Safari, Opera */
     -moz-column-spant: 1; /* Firefox */
     column-span: 1;
+    display: inline-block;
 }
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
