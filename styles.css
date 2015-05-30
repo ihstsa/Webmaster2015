@@ -123,16 +123,19 @@ display: inline-block;
 	height: 500px;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
 #labs{
 	height: 490px;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #contact{
 	height: 490px;
 	text-align: center;
 	background-color: rgb(230,230,230);
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #map{
     background-image: url("");
