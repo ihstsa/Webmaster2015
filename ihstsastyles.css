@@ -197,6 +197,8 @@ display: inline-block;
 #cjac{
 	background-image: url(img/jacob.png);
 	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
 }
 
 #cfre{
