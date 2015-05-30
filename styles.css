@@ -216,6 +216,12 @@ br{
 	float: right;
 	margin-right: 40px;
 }
+
+#cbre{
+	background-image: url(img/briegle.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #kry, #sau, #kie, #dep, #bib, #map{
     display: none;
