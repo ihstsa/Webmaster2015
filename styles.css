@@ -71,9 +71,12 @@ body{
     z-index: 0;
 }
 #intro{
+	background-image: url(school.PNG);
+	background-size: 100% auto;
+	background-position: center bottom;
     text-align: center;
-    background-color: white;
-    height: 600px;
+    background-color: rbg();
+    height: calc(100vh - 50px);
 }
 .title{
 	width: 70%;
