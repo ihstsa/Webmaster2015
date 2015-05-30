@@ -71,7 +71,7 @@ body{
     z-index: 0;
 }
 #intro{
-	background-image: url(school.PNG);
+	background-image: url(img/school.PNG);
 	background-size: 100% auto;
 	background-position: center bottom;
     text-align: center;
