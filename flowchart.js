@@ -19,7 +19,7 @@ setup_fc = function(fc, data) {
     htr = document.createElement('tr');
     th = document.createElement('th');
     th.colSpan = aks.length;
-    th.textContent = name;
+    th.innerHTML = name;
     htr.appendChild(th);
     table.appendChild(htr);
     dtr = document.createElement('tr');
