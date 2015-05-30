@@ -222,6 +222,30 @@ br{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
+
+#ckry{
+	background-image: url(img/krywe.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#cdep{
+	background-image: url(img/deppe.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#ckie{
+	background-image: url(img/kiechle.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#csau{
+	background-image: url(img/sauve.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
 /*JS Stuff*/
 #cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #kry, #sau, #kie, #dep, #bib, #map{
     display: none;
