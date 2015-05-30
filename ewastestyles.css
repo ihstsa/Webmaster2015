@@ -99,6 +99,35 @@ body{
 	text-align: center;
 	vertical-align: middle;
 }
+#drop{
+	background-color: rgb(230,230,230);
+}
+#sitelinks{
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    background-color: white;
+    height: 55px
+}
+.sitelink{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(94,171,0);
+    font-size: 24px;
+    line-height: 36px;
+}
+.sitelink:hover{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("img/linkgreen.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
+    text-decoration: none;
+    color: rgb(128,194,47);
+}
 #map{
     background-color: white;
 }
