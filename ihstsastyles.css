@@ -211,6 +211,8 @@ display: inline-block;
 #ctri{
 	background-image: url(img/tristan.png);
 	background-size: 80% auto;
+	background-repeat: no-repeat;
+	background-position: 20px 0px;
 }
 
 #csop{
