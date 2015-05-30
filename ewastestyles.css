@@ -101,6 +101,8 @@ body{
 }
 #drop{
 	background-color: rgb(230,230,230);
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #sitelinks{
     width: 100%;
