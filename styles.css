@@ -183,83 +183,6 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
-/*JS Stuff*/
-#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
-    display: none;
-}
-/*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    background: white;
-}
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
-.menu li {
-    margin:0px;
-    list-style:none;
-}
-.menu a {
-    transition:all linear 0.15s;
-    color:rgb(47,127,194);
-}
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:rgb(47,127,243);/*Selected text -- blue*/
-}
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display: inline-block;
-    position: relative;
-    font-size: 24px;
-}
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-}
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background: white;
-}
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
-.sub-menu {
-    width:100%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    background: white;/*Background of tab*/
-}
-.sub-menu li {
-    display:block;
-    font-size:18px;
-}
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
-.sub-menu li a:hover, .sub-menu .current-item a {
-    color: rgb(47,128,243);
-}
-.menu-wrap a
-{
-    text-decoration: none;
-}
-
-#jacobBandSaw
-{
-	width: 500px;
-	left:0px;
-	position: absolute;
-}
 
 #freyaComputer
 {
@@ -268,3 +191,12 @@ br{
 	position: absolute;
 	margin-top: -197px;
 }
+
+.iframe{
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+/*JS Stuff*/
+#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
+    display: none;
