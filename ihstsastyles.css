@@ -5,27 +5,19 @@ body{
     height: 100%;
     margin: auto;
 }
-/*Menu*/
-#menu{
-    background-image: url("img/ihstsa.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 80%;
-    height: 120px;
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-}
-#filler{
-    height: 150px;
-}
 #othersites{
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: inline-block;
-    height: 115px;
+    margin: auto;
+    text-align: center;
 }
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .othersite{
     position: relative;
     display: inline-block;
@@ -45,18 +37,13 @@ body{
     background-size: 200px 5px;
     background-position: center top;
 }
-#title, #sitelinks{
-    position: static;
-    display: inline-block;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-.title{
-    font-size: 60px;
-    font-weight: heavy;
-    margin: 0px;
-    color: gray;
+#sitelinks{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	z-index: 10;
+	background-color: rgb(230,230,230);
+	top: 0;
 }
 .sitelink{
     display: inline-block;
@@ -78,48 +65,59 @@ body{
 }
 /*Content*/
 .section{
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
     overflow-y: auto;
     text-align: center;
-    align-items: center;
-    min-height: 600px;
     z-index: 0;
 }
-#intro{
-    background-image: url("img/techbackground.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto 500px;
-    height: 90vh;
-    max-height: 600px;
-}
-#act{
-}
-#fun{
-}
-#lea{
-}
-#leainfo{
-}
-#about{
-    background-color: rgb(64,64,64);
-    position: static;
-    height: 60px;
+
+.jssection{
     width: 100%;
+    overflow-y: auto;
+    text-align: center;
+    z-index: 0;
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+-webkit-column-rule-width: 10%; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 10%; /* Firefox */
+    column-rule-width: 10%;
 }
-#map{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position: center;
-    height: 763px;
+#intro{
+    text-align: center;
+    height: calc(100vh - 50px);
 }
-#footer{
-	height: 1px;
-	width: 100%;
-	background-color: gray
+.title{
+	width: 35%;
+	max-width: 700px;
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#aboutus{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#competitions{
+	background-color: rgb(230,230,230);
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#fundraising{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#service{
+	background-color: rgb(230,230,230);
+	padding-bottom: 50px;
+	padding-top: 50px;
+	   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	   -moz-column-count: 2; /* Firefox */
+	   column-count: 2;
+}
+#leadership{
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 /*Assorted Styles*/
 br{
@@ -127,25 +125,24 @@ br{
     line-height: 20px;
     height: 20px;
 }
-.subtitle{
-    text-align: center;
-    font-size: 30px;
-    line-height: 36px;
-}
 .text{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
+    display: inline-block;
+    max-width: 80%;
 }
 .smalltext{
     text-align: justify;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 27px;
+    display: inline-block;
+    max-width: 80%;
 }
-.centertext{
+.subtitle{
     text-align: center;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 34px;
+    line-height: 72px;
 }
 .bodylink{
     color: rgb(47,128,194);
@@ -168,90 +165,77 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
-.about{
-    color: lightgray;
-    font-size: 36px;
-    margin-left: 10%;
-    margin-right: 50px;
+
+.circlelink{
+display: inline-block;
+  background-image: url(img/circle.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  z-index: 3;
 }
-.arrow{
-    display: inline-block;
-    font-size: 60px;
-    vertical-align: middle;
-    font-family: 'Zapf Dingbats';
+
+.circlelink:hover{
+  background-image: url(img/circle2.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+    z-index: 3;
 }
-.officer{
+
+.tech{
 	display: inline-block;
-	max-height: 350px;
-	max-width: 35opx;
+	max-width: 200px;
+	width: 20%;
+	min-height: 200px;
+	border-style: solid;
+	border-color: rgb(200,200,200);
+	border-radius: 120px;
+	border-width: 20px;
+	vertical-align: middle;
+}
+.tech:hover{
+	opacity: .7;
+}
+
+#czak{
+	background-image: url(img/zak.png);
+	background-size: 100% auto;
+}
+
+#cjac{
+	background-image: url(img/jacob.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+}
+
+#cfre{
+	background-image: url(img/freya2.png);
+	background-size: 100% auto;
+	background-position: 0px 5px;
+	background-repeat: no-repeat;
+}
+
+#ctri{
+	background-image: url(img/tristan.png);
+	background-size: 80% auto;
+	background-repeat: no-repeat;
+	background-position: 25px 0px;
+}
+
+#csop{
+	background-image: url(img/sophie.png);
+	background-size: 100% auto;
 }
 /*JS Stuff*/
-#cat, #co2, #vg, #ch, #cr, #be, #leainfo{
-    display: none;
-}
-/*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    background: white;
-}
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
-.menu li {
-    margin:0px;
-    list-style:none;
-}
-.menu a {
-    transition:all linear 0.15s;
-    color:rgb(47,127,194);
-}
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:rgb(47,127,243);/*Selected text -- blue*/
-}
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display: inline-block;
-    position: relative;
-    font-size: 24px;
-}
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-}
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background: white;
-}
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
-.sub-menu {
-    width:100%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    background: white;/*Background of tab*/
-}
-.sub-menu li {
-    display:block;
-    font-size:18px;
-}
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
-.sub-menu li a:hover, .sub-menu .current-item a {
-    color: rgb(47,128,243);
-}
-.menu-wrap a
-{
-    text-decoration: none;
+    display: nfone;
 }

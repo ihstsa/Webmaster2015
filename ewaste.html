@@ -4,20 +4,81 @@
 <head>
 <meta charset="UTF-8">
 <title>Design Brief</title>
-<link rel="stylesheet" type="text/css" href="ewastestyles.css">
+<link rel="stylesheet" type="text/css" href="ewastestyles.css" />
+<link rel="stylesheet" type="text/css" href="flowchart.css" />
 <script type="text/javascript" src="script.js"></script>
+<<<<<<< HEAD
 <script type="text/javascript" language="JavaScript"><!--
+var $ = document.getElementById.bind(document);
 
-//var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
-//var sol = gen_switch("bsol solutions casol cesol cosol tsol")
-//var des = gen_switch("bdes cades cedes codes tdes")
-//var bottom = gen_switch("bib map")
-window.addEventListener("load", function(){
-	enable(document.getElementsByClassName("des"));
-	enable(document.getElementsByClassName("prob"));
-	enable(document.getElementsByClassName("sol"));
-})
+var batteryData = {
+  'What type of battery do you have?' : {
+    'Car Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Power Tool Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Button Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Rechargeable Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'AAA or AA Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+  }
+}
 
+var tvData = {
+  'Is your television broken?': {
+    'Yes': {
+      'Try to fix it. Has the problem gone away?': {
+        'Yes': 'Enjoy your improved television!',
+        'No': {
+          'Is the television mostly usabe?' :{
+            'Yes' : {
+              'Donate it to people without televisions' : {
+              	'Learn more' : '<a href=http://interconnection.org>interconnection.org is a website you can use to donate old televisions to people who will use them. Reusing is better than recycling, too!'
+              }
+            },
+            'No' : 'Bring your television to the Recycling and Solid Waste Center, where it can be responsibly disposed of. <a href="#drop">Learn more</a>'
+          }
+        }
+      }
+    },
+    'No, I just don\'t want mine.' : {
+      'Is the television mostly usabe?' :{
+        'Yes' : {
+          'Donate it to people without televisions' : {
+            'Learn more' : '<a href=http://interconnection.org>interconnection.org is a website you can use to donate old televisions to people who will use them. Reusing is better than recycling, too!'
+          }
+        },
+        'No' : 'Bring your television to the Recycling and Solid Waste Center, where it can be responsibly disposed of. <a href="#drop">Learn more</a>'
+      }
+    }
+  }};
+  
+window.addEventListener('load', function(){
+	setup_fc($('tvFlowchart'), tvData)
+	setup_fc($('batteryFlowchart'), batteryData)
+});
 //--></script>
 </head>
 
@@ -36,95 +97,68 @@ window.addEventListener("load", function(){
 	<br>
 	<p class="subtitle">But we can stop it.
 	<br>
-	<a class="bodylink" href="#pane2">Learn more</a></p>
+	<br>
 </div>
 
 <div id="pane2" class="section">
 
 <div id="problems" class="section">
-	<p class="text">When the technology is thrown into a landfill, <b>dangerous chemicals can seep into the environment</b> and cause <b>damage throughout the food chain</b> as plants and animals consume contaminated water and through biomagnification. That's why it's <b>illegal</b> in New York State.</p>
+	<p class="text">About 40 million metric tons of e-waste are produced each year. 
+
+Only 25 percent of e-waste is recycled.
+
+23 percent of e-waste is shipped to 7 developing countries for disposal. 
+
+If more waste were sent to developing countries to be repurposed, we could help bridge the technological divide. But instead, this e-waste is often burned and shredded, which releases toxic chemicals. Often, these harmful practices take place in backyards behind people’s homes. These people receive only a few dollars a day for the work that places them in grave medical danger. Their rights are almost never protected.
+<br>
+<br>
+Sometimes, e-waste is placed in a landfill rather than shipped to poor workers for processing. When electronics are thrown into a landfill, dangerous chemicals can seep into the environment cause damage throughout the food chain and to agriculture because of biomagnification. That’s why improper disposal of e-waste is illegal in New York State. 
+<br>
+<br>
+Correct, eco-friendly, and legal disposal of e-waste is easy in Ithaca, New York. All you have to do is identify what type of e-waste you have, figure out what should happen to it, and then bring it to the right place. Keep reading to find out where to bring your e-waste in Ithaca.</p>
+</div>
 </div>
 
-<div id="solutions" class="section" class="text">
-    <p class="text">Luckily, correct, environmentally-friendly, and legal disposal of e-waste is extremely easy in Ithaca, New York. All have to do is identify what type of e-waste you have, figure out what should happen to it, and bring it to the appropriate place.
-    </p>
+<div id="wastes" class="section">
+	<p class="subtitle">Learn about the specific dangers and specifically how you should dispose of old electronics.</p>
+	<br>
+	<br>
+	<br>
+	<a class="bodylink" href="batteries.html"><div id="battery" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" class="bodylink" href="cameras.html"><div id="camera" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" href="cellphones.html"><div id="cellphone" class="tech">
+		<br>
+	</div></a>
+	<a class="bodylink" href="computers.html"><div id="computer" class="tech">
+		<br>
+	</div></a>
+	<a href="tvs.html"><div id="television" class="tech">
+		<br>
+	</div></a>
+	
+	<div id="batteryFlowchart" class="section"></div>
+	
+	<div id="cameraFlowchart" class="section"></div>
+	
+	<div id="cellphoneFlowchart" class="section"></div>
+	
+	<div id="computerFlowchart" class="section"></div>
+	
+	<div id="tvFlowchart" class="section"></div>
 </div>
 
+<div id="drop" class="section">
+
+	<p class="text left">The Tompkins County Solid Waste Management Division describes its mission as the management of solid waste in an “environmentally sound, cost-effective, socially responsible and safe” way. This environmentally conscious organization has its recycling center located at 160 Commercial Avenue, and accepts yard waste, plastics, tires, clothing, and a variety of e-waste. The Recycling and Solid Waste Center (RSWC) also accepts hazardous wastes at six dates throughout the year. Dropping your e-waste off at the RSWC ensures that it will be disposed of responsibly and safely.</p>
+	<br>
+<iframe class="iframe" width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/search?q=Tompkins+County+Solid+Waste+Management,+Commercial+Avenue,+Ithaca,+NY,+United+States&key=AIzaSyDyBCqiNgvw6Li-Sc--PREQZYQdrmfHReQ"></iframe>
 </div>
 
-<div id="wastes" class="section" class="subtitle">
-	<div id="battery" class="tech">
-		<br>
-		<a class="bodylink des" data-tid="bdes" href="#">What are these?</a>
-		<br>
-		<a class="bodylink prob" data-tid="bprob" href="#">Dangers</a>
-		<br>
-		<a class="bodylink sol" data-tid="bsol" href="#">Disposal</a>
-	</div>
-	<div id="camera" class="tech">
-		<br>
-		<a class="bodylink des" data-tid="cades" href="#">What are these?</a>		
-		<br>
-		<a class="bodylink prob" data-tid="caprob" href="#">Dangers</a>
-		<br>
-		<a class="bodylink sol" data-tid="casol" href="#">Disposal</a>
-	</div>
-	<div id="cellphone" class="tech">
-		<br>
-		<a class="bodylink des" data-tid="cedes" href="#">What are these?</a>		
-		<br>
-		<a class="bodylink prob" data-tid="ceprob" href="#">Dangers</a>
-		<br>
-		<a class="bodylink sol" data-tid="cesol" href="#">Disposal</a>
-	</div>
-	<div id="computer" class="tech">
-		<br>
-		<a class="bodylink des" data-tid="codes" href="#">What are these?</a>	
-		<br>
-		<a class="bodylink prob" data-tid="coprob" href="#">Dangers</a>
-		<br>
-		<a class="bodylink sol" data-tid="cosol" href="#">Disposal</a>
-	</div>
-	<div id="television" class="tech">
-		<br>
-		<a class="bodylink des" data-tid="tdes" href="#">What are these?</a>		
-		<br>
-		<a class="bodylink prob" data-tid="tprob" href="#">Dangers</a>
-		<br>
-		<a class="bodylink sol" data-tid="tsol" href="#">Disposal</a>
-	</div>
-
-<div class="section" id="bdes"></div>
-
-<div class="section" id="cades"></div>
-
-<div class="section" id="cedes"></div>
-
-<div class="section" id="codes"></div>
-
-<div class="section" id="tdes"></div>
-
-<div class="section" id="bprob"></div>
-
-<div class="section" id="caprob"></div>
-
-<div class="section" id="ceprob"></div>
-
-<div class="section" id="coprob"></div>
-
-<div class="section" id="tprob"></div>
-
-<div class="section" id="bsol"></div>
-
-<div class="section" id="casol"></div>
-
-<div class="section" id="cesol"></div>
-
-<div class="section" id="cosol"></div>
-
-<div class="section" id="tsol"></div>
-
-</div>
 
     <div id="sitelinks" class="section">
     <a class="sitelink" href="javascript:bottom('map');">Site Map</a>

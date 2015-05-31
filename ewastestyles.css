@@ -27,15 +27,15 @@ body{
     background-position: center top;
 }
 #sitelinks{
-    width: 100vw;
-    padding-right: -20%;
+    width: 100%;
     text-align: center;
     z-index: 0;
     background-color: rgb(230,230,230);
+    height: 55px
 }
 .sitelink{
     display: inline-block;
-    margin-right: 35px;
+    margin-right: 50px;
     text-decoration: none;
     color: rgb(94,171,0);
     font-size: 24px;
@@ -43,6 +43,8 @@ body{
 }
 .sitelink:hover{
     display: inline-block;
+    margin-right: 50px;
+    height: 50px;
     background-image: url("img/linkgreen.png");
     background-repeat: no-repeat;
     background-size: 200px 5px;
@@ -63,9 +65,9 @@ body{
 	border-bottom: 0px;
 }
 #pane1{
-    height: calc(100vh - 20px);
     text-align: center;
     background-color: white;
+    padding-bottom: 50px;
 }
 #pane2{
     text-align: center;
@@ -80,14 +82,13 @@ body{
 }
 #wastes{
 	width: 100%;
-	height: calc(40vh - 50px);
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0%;
 }
 .tech{
 	display: inline-block;
-max-width: 200px;
+	max-width: 200px;
 	width: 20%;
 	min-height: 200px;
 	border-style: solid;
@@ -97,6 +98,37 @@ max-width: 200px;
 	line-height: 36px;
 	text-align: center;
 	vertical-align: middle;
+}
+#drop{
+	background-color: rgb(230,230,230);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#sitelinks{
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    background-color: white;
+    height: 55px
+}
+.sitelink{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(94,171,0);
+    font-size: 24px;
+    line-height: 36px;
+}
+.sitelink:hover{
+    display: inline-block;
+    margin-right: 50px;
+    height: 50px;
+    background-image: url("img/linkgreen.png");
+    background-repeat: no-repeat;
+    background-size: 200px 5px;
+    background-position: center bottom;
+    text-decoration: none;
+    color: rgb(128,194,47);
 }
 #map{
     background-color: white;
@@ -159,19 +191,62 @@ br{
 }
 #battery, #bdes, #bprob, #bsol{
 	border-color: rgb(8,54,67);
+	background-color: rgb(8,54,67);
+	background-image: url(img/Battery.svg);
+	background-size: 650% 650%;
+	background-position: -10px -100px;
 }
 #camera, #cades, #caprob, #casol{
 	border-color: rgb(184,236,215);
+	background-color: rgb(184,236,215);
+	background-image: url(img/Camera.svg);
+	background-size: 500% 500%;
+	background-position: 0px -85px;
 }
 #cellphone, #cedes, #ceprob, #cesol{
 	border-color: rgb(71,108,94);
+	background-color: rgb(71,108,94);
+	background-image: url(img/Phone.svg);
+	background-size: 600% 600%;
+	background-position: 32px -140px;
 }
 #computer, #codes, #coprob, #cosol{
 	border-color: rgb(206,240,157);
+	background-color: rgb(206,240,157);
+	background-image: url(img/Computer.svg);
+	background-size: 170% 170%;
+	background-position: 22px -15px;
 }
 #television, #tdes, #tprob, #tsol{
 	border-color: rgb(174,224,1);
+	background-color: rgb(174,224,1);
+	background-image: url(img/TV.svg);
+	background-size: 170% 170%;
+	background-position: 13px 0px;
 }
 #bprob, #caprob, #ceprob, #coprob, #tprob, #bsol, #casol, #cesol, #cosol, #tsol, #bdes, #cades, #cedes, #codes, #tdes, #bib, #map{
 	display: none;
+}
+
+p.techTypeContent {
+  text-align: left;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  text-indent: 3em;
+}
+
+.tech:hover
+{
+	opacity:.7;
+}
+
+.iframe{
+	float: right;
+	margin-right: 10%;
+}
+
+.left{
+	float: left;
+	margin-left: 10%;
+	max-width: 40%;
 }

@@ -63,19 +63,47 @@ body{
     text-decoration: none;
     color: rgb(47,128,243);
 }
+
+.circlelink{
+display: inline-block;
+  background-image: url(img/circle.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.circlelink:hover{
+  background-image: url(img/circle2.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+    z-index: 3;
+}
+
 /*Content*/
 .section{
     width: 100%;
-        min-height: 600px;
     overflow-y: auto;
     text-align: center;
     z-index: 0;
 }
 #intro{
+	background-image: url(img/school.PNG);
+	background-size: 100% auto;
+	background-position: center bottom;
+	background-repeat: no-repeat;
     text-align: center;
-    background-color: white;
-/*    overflow-y: hidden;*/
-    min-height: 100vh;
+      background-color: rgba(20,80,200,.4);
+    height: calc(100vh - 50px);
 }
 .title{
 	width: 70%;
@@ -84,11 +112,30 @@ body{
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
+#ihs{
+	background-color: white;
+	height: 550px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 #courses{
+	background-color: rgb(230,230,230);
+	height: 500px;
+	text-align: center;
+	padding-top: 50px;
 }
 #labs{
+	height: 490px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #contact{
+	height: 490px;
+	text-align: center;
+	background-color: rgb(230,230,230);
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #map{
     background-image: url("");
@@ -96,6 +143,21 @@ body{
     background-color: white;
     background-position: center;
     height: 763px;
+}
+
+.tech{
+	display: inline-block;
+	max-width: 200px;
+	width: 20%;
+	min-height: 200px;
+	border-style: solid;
+	border-color: rgb(200,200,200);
+	border-radius: 120px;
+	border-width: 20px;
+	vertical-align: middle;
+}
+.tech:hover{
+	opacity: .7;
 }
 /*Assorted Styles*/
 br{
@@ -107,18 +169,19 @@ br{
     text-align: justify;
     font-size: 24px;
     line-height: 36px;
-    padding-left: 30px;
-    padding-right: 30px;
+    display: inline-block;
 }
 .smalltext{
     text-align: justify;
     font-size: 18px;
     line-height: 24px;
+    display: inline-block;
 }
 .subtitle{
-    text-align: center;
-    font-size: 30px;
-    line-height: 36px;
+    text-align: left;
+    font-size: 34px;
+    line-height: 72px;
+    width: 60%;
 }
 .bodylink{
     color: rgb(47,128,194);
@@ -141,94 +204,48 @@ br{
     text-decoration: none;
     cursor: pointer;
 }
-/*JS Stuff*/
-#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #cas, #cow, #kry, #sau, #ves, #kie, #dep, #bib, #map{
-    display: none;
-}
-/*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    background: white;
-}
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
-.menu li {
-    margin:0px;
-    list-style:none;
-}
-.menu a {
-    transition:all linear 0.15s;
-    color:rgb(47,127,194);
-}
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:rgb(47,127,243);/*Selected text -- blue*/
-}
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display: inline-block;
-    position: relative;
-    font-size: 24px;
-}
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-}
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background: white;
-}
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
-.sub-menu {
-    width:100%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    background: white;/*Background of tab*/
-}
-.sub-menu li {
-    display:block;
-    font-size:18px;
-}
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
-.sub-menu li a:hover, .sub-menu .current-item a {
-    color: rgb(47,128,243);
-}
-.menu-wrap a
-{
-    text-decoration: none;
-}
-
-#jacobBandSaw
-{
-	width: 500px;
-	left:0px;
-	position: absolute;
-}
 
 #freyaComputer
 {
 	width: 500px;
-	right: 0px;
-	position: absolute;
+	float: right;
+	margin-top: -197px;
 }
 
-.subjectLinks
-{
-	border-style: solid none;
-	border-width: 1px;
-	border-color: rgb(150,150,150);
+.iframe{
+	float: right;
+	margin-right: 40px;
 }
+
+#cbre{
+	background-image: url(img/briegle.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#ckry{
+	background-image: url(img/krywe.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#cdep{
+	background-image: url(img/deppe.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#ckie{
+	background-image: url(img/kiechle.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#csau{
+	background-image: url(img/sauve.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+/*JS Stuff*/
+#cs, #pr12, #apcomp, #pltw, #ddp, #cim, #de, #edd, #mc, #e1, #e4, #e11, #e16, #bre, #kry, #sau, #kie, #dep, #bib, #map{
+    display: none;
