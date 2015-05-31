@@ -70,6 +70,13 @@ body{
     text-align: center;
     z-index: 0;
 }
+
+.jssection{
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;
+    z-index: 0;
+}
 #intro{
     text-align: center;
     height: calc(100vh - 50px);
