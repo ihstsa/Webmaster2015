@@ -121,6 +121,7 @@ br{
     font-size: 18px;
     line-height: 27px;
     display: inline-block;
+    max-width: 80%;
 }
 .subtitle{
     text-align: center;
