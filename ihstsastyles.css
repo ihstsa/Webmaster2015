@@ -75,7 +75,7 @@ body{
     min-height: 100vh;
 }
 .title{
-	height: 35%;
+	width: 35%;
 	max-width: 700px;
 	display: inline-block;
 	margin-top: 2%;
