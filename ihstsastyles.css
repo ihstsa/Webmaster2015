@@ -72,7 +72,7 @@ body{
 }
 #intro{
     text-align: center;
-    min-height: 100vh;
+    height: calc(100vh - 50px);
 }
 .title{
 	width: 35%;
