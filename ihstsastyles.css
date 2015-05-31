@@ -77,8 +77,11 @@ body{
     text-align: center;
     z-index: 0;
    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-	   -moz-column-count: 2; /* Firefox */
-	   column-count: 2;
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+-webkit-column-rule-width: 10%; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 10%; /* Firefox */
+    column-rule-width: 10%;
 }
 #intro{
     text-align: center;
@@ -134,7 +137,7 @@ br{
     font-size: 18px;
     line-height: 27px;
     display: inline-block;
-    max-width: 60%;
+    max-width: 80%;
 }
 .subtitle{
     text-align: center;
