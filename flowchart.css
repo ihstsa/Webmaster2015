@@ -1,0 +1,52 @@
+th {
+  white-space: nowrap;
+  padding-bottom: 0.5em;
+}
+
+.flowchart > div {
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+
+.flowchart a {
+  text-decoration: none;
+}
+
+.final {
+  text-align: center;
+}
+
+.arrow {
+  height: 7.5px;
+  border-width: 3px;
+  border-color: green;
+  border-bottom: 2px solid green;
+  margin-bottom: 0;
+}
+
+.arrow.right {
+  border-right-style: solid;
+  text-align: left;
+}
+
+.arrow.left {
+  border-left-style: solid;
+  text-align: right;
+}
+
+.achar {
+  margin-top: -2px;
+  text-align: center;
+  height: 10px;
+  overflow: hidden;
+  color: green;
+}
+
+.achar span {
+  top: -0.35em;
+  display: inline-block;
+  position: relative;
+  transform: scale(0.75, 1);
+}
+

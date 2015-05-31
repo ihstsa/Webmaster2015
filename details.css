@@ -1,0 +1,54 @@
+#links{
+    position: relative;
+    text-align: center;
+}
+
+.link{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.link:hover{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+#batteries{
+    background-color: rgba(8,54,67,.35);
+}
+
+#cameras{
+    background-color: rgba(184,236,215,.35);
+}
+
+#phones{
+    background-color: rgba(71,108,94,.35);
+}
+
+#computers{
+    background-color: rgba(206,240,157,.35);
+}
+
+#tvs{
+    background-color: rgba(174,224,1,.35);
+}
+.b{
+    color: rgb(8,54,67);
+}
+
+.ca{
+    color: rgb(184,236,215);
+}
+
+.co{
+    color: rgb(206,240,157);
+}
+
+.p{
+    color: rgb(71,108,94);
+}
+
+.t{
+    color: rgb(174,224,1);
+}
