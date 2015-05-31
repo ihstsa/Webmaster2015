@@ -13,7 +13,45 @@ var prob = gen_switch("bprob caprob ceprob coprob tprob problems")
 var sol = gen_switch("bsol solutions casol cesol cosol tsol")
 var des = gen_switch("bdes cades cedes codes tdes")
 var bottom = gen_switch("bib map")
+
+
 var $ = document.getElementById.bind(document);
+
+var batteryData = {
+  'What type of battery do you have?' : {
+    'Car Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Power Tool Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Button Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'Rechargeable Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+    'AAA or AA Battery' : {
+      'Is it leaking?' : {
+        'Yes' : 'Bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE',
+        'No' : 'Put in a plastic bag. Then, bring it to the Recycling and Solid Waste Center for disposal. LEARN MORE'
+      }	
+    }
+  }
+}
+
 var tvData = {
   'Is your television broken?': {
     'Yes': {
