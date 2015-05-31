@@ -239,3 +239,13 @@ p.techTypeContent {
 {
 	opacity:.7;
 }
+
+.iframe{
+	float: right;
+	margin-right: 10%;
+}
+
+.left{
+	float: left;
+	margin-left: 10%;
+}
