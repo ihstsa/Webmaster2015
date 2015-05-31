@@ -111,15 +111,15 @@ br{
 }
 .text{
     text-align: justify;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 24px;
+    line-height: 36px;
     display: inline-block;
     max-width: 80%;
 }
 .smalltext{
     text-align: justify;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 27px;
     display: inline-block;
 }
 .subtitle{
