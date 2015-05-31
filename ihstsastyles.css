@@ -76,6 +76,9 @@ body{
     overflow-y: auto;
     text-align: center;
     z-index: 0;
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	   -moz-column-count: 2; /* Firefox */
+	   column-count: 2;
 }
 #intro{
     text-align: center;
@@ -96,9 +99,6 @@ body{
 	background-color: rgb(230,230,230);
 	padding-bottom: 50px;
 	padding-top: 50px;
-	 -webkit-column-count: 2; /* Chrome, Safari, Opera */
-	   -moz-column-count: 2; /* Firefox */
-	   column-count: 2;
 }
 #fundraising{
 	padding-bottom: 50px;
