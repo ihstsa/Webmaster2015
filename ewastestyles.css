@@ -248,4 +248,5 @@ p.techTypeContent {
 .left{
 	float: left;
 	margin-left: 10%;
+	max-width: 40%;
 }
